@@ -1,0 +1,545 @@
+Attaching to kenglab_web_1, kenglab_db_1
+[36mweb_1  |[0m [2016-07-04 14:52:22] INFO  WEBrick 1.3.1
+[36mweb_1  |[0m [2016-07-04 14:52:22] INFO  ruby 2.2.0 (2014-12-25) [x86_64-linux]
+[36mweb_1  |[0m [2016-07-04 14:52:22] INFO  WEBrick::HTTPServer#start: pid=1 port=3000
+[36mweb_1  |[0m => Booting WEBrick
+[36mweb_1  |[0m => Rails 4.2.0 application starting in development on http://0.0.0.0:3000
+[36mweb_1  |[0m => Run `rails server -h` for more startup options
+[36mweb_1  |[0m => Ctrl-C to shutdown server
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/" for 172.18.0.1 at 2016-07-04 14:53:11 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by Rails::WelcomeController#index as HTML
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+[36mweb_1  |[0m Completed 200 OK in 64ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+[36mweb_1  |[0m 
+[33mdb_1   |[0m LOG:  database system was interrupted; last known up at 2016-03-08 07:19:58 UTC
+[33mdb_1   |[0m LOG:  database system was not properly shut down; automatic recovery in progress
+[33mdb_1   |[0m LOG:  record with zero length at 0/16A8178
+[33mdb_1   |[0m LOG:  redo is not required
+[33mdb_1   |[0m LOG:  MultiXact member wraparound protections are now enabled
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/rails/info/properties" for 172.18.0.1 at 2016-07-04 14:53:14 +0000
+[33mdb_1   |[0m LOG:  database system is ready to accept connections
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[33mdb_1   |[0m LOG:  autovacuum launcher started
+[36mweb_1  |[0m Processing by Rails::InfoController#properties as HTML
+[33mdb_1   |[0m ERROR:  database "postgres" already exists
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/railties-4.2.0/lib/rails/templates/rails/info/properties.html.erb (0.6ms)
+[33mdb_1   |[0m STATEMENT:  CREATE DATABASE "postgres" ENCODING = 'unicode'
+[36mweb_1  |[0m Completed 200 OK in 168ms (Views: 22.9ms | ActiveRecord: 27.8ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/" for 172.18.0.1 at 2016-07-04 14:53:23 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by Rails::WelcomeController#index as HTML
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+[36mweb_1  |[0m Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/rails/info/properties" for 172.18.0.1 at 2016-07-04 14:53:26 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by Rails::InfoController#properties as HTML
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/railties-4.2.0/lib/rails/templates/rails/info/properties.html.erb (0.1ms)
+[36mweb_1  |[0m Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/" for 172.18.0.1 at 2016-07-04 15:38:05 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[36mweb_1  |[0m Processing by Rails::WelcomeController#index as HTML
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+[36mweb_1  |[0m Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products" for 172.18.0.1 at 2016-07-04 15:38:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (5.5ms)
+[36mweb_1  |[0m Completed 200 OK in 1962ms (Views: 1928.1ms | ActiveRecord: 2.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.18.0.1 at 2016-07-04 15:38:41 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 15:38:41 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 15:38:41 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 15:38:41 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 15:38:41 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 15:38:42 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 15:38:42 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 15:38:42 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/new" for 172.18.0.1 at 2016-07-04 15:39:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#new as HTML
+[36mweb_1  |[0m   Rendered products/_form.html.erb (115.8ms)
+[36mweb_1  |[0m   Rendered products/new.html.erb within layouts/application (168.3ms)
+[36mweb_1  |[0m Completed 200 OK in 414ms (Views: 406.6ms | ActiveRecord: 1.9ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/new" for 172.18.0.1 at 2016-07-04 15:40:07 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#new as HTML
+[36mweb_1  |[0m   Rendered products/_form.html.erb (2.4ms)
+[36mweb_1  |[0m   Rendered products/new.html.erb within layouts/application (24.4ms)
+[36mweb_1  |[0m Completed 200 OK in 259ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.18.0.1 at 2016-07-04 15:40:07 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 15:40:07 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 15:40:07 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 15:40:07 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 15:40:08 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 15:40:08 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 15:40:08 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 15:40:08 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started POST "/products" for 172.18.0.1 at 2016-07-04 15:40:51 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#create as HTML
+[36mweb_1  |[0m   Parameters: {"utf8"=>"✓", "authenticity_token"=>"M0SgFDaLG8JUZtpXfITM1VDXiic81qT9megV8Q9k7mOuVLscWbyjV44L/tVDGvEQxanYApTAr5/mT+dLDBrTTA==", "product"=>{"title"=>"New post", "description"=>"Yes WE CAN!!!!", "image_url"=>"facepalm.png", "price"=>"5.22"}, "commit"=>"Create Product"}
+[36mweb_1  |[0m   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+[36mweb_1  |[0m   [1m[35mSQL (4.2ms)[0m  INSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["title", "New post"], ["description", "Yes WE CAN!!!!"], ["image_url", "facepalm.png"], ["price", "5.22"], ["created_at", "2016-07-04 15:40:51.560379"], ["updated_at", "2016-07-04 15:40:51.560379"]]
+[36mweb_1  |[0m   [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+[36mweb_1  |[0m Redirected to http://localhost:3000/products/1
+[36mweb_1  |[0m Completed 302 Found in 47ms (ActiveRecord: 16.1ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/1" for 172.18.0.1 at 2016-07-04 15:40:51 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#show as HTML
+[36mweb_1  |[0m   Parameters: {"id"=>"1"}
+[36mweb_1  |[0m   [1m[35mProduct Load (3.7ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = $1 LIMIT 1  [["id", 1]]
+[36mweb_1  |[0m   Rendered products/show.html.erb within layouts/application (1.1ms)
+[36mweb_1  |[0m Completed 200 OK in 332ms (Views: 282.4ms | ActiveRecord: 3.7ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 15:40:56 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[36mProduct Load (0.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (4.0ms)
+[36mweb_1  |[0m Completed 200 OK in 266ms (Views: 264.3ms | ActiveRecord: 0.6ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 15:47:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (3.9ms)
+[36mweb_1  |[0m Completed 200 OK in 190ms (Views: 186.9ms | ActiveRecord: 0.5ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 15:47:40 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:00:00 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (4.6ms)
+[36mweb_1  |[0m Completed 200 OK in 495ms (Views: 492.9ms | ActiveRecord: 1.3ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-50bea370133c3cb502cecddebf12d39dc6f499e18606c8689224cd01ed006603.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:01 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:01 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:01 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:02 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (2.0ms)
+[36mweb_1  |[0m Completed 200 OK in 215ms (Views: 213.2ms | ActiveRecord: 0.4ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-50bea370133c3cb502cecddebf12d39dc6f499e18606c8689224cd01ed006603.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:33 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 16:00:34 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:34 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 16:00:34 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:02:01 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (3.6ms)
+[36mweb_1  |[0m Completed 500 Internal Server Error in 382ms
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ActionView::Template::Error (undefined method `controller' for #<ProductsController:0x007fa01df32630>):
+[36mweb_1  |[0m      6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+[36mweb_1  |[0m      7:   <%= csrf_meta_tags %>
+[36mweb_1  |[0m      8: </head>
+[36mweb_1  |[0m      9: <body class='<%= controller.controller.name %>'>
+[36mweb_1  |[0m     10: 
+[36mweb_1  |[0m     11: <%= yield %>
+[36mweb_1  |[0m     12: 
+[36mweb_1  |[0m   app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3282385134165956694_70162836857280'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.7ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:13:35 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (1.8ms)
+[36mweb_1  |[0m Completed 500 Internal Server Error in 66ms
+[36mweb_1  |[0m 
+[36mweb_1  |[0m SyntaxError (/kenglab/app/views/products/index.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+[36mweb_1  |[0m '.freeze;   end 
+[36mweb_1  |[0m                ^
+[36mweb_1  |[0m /kenglab/app/views/products/index.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+[36mweb_1  |[0m /kenglab/app/views/products/index.html.erb:32: syntax error, unexpected keyword_end, expecting ')'):
+[36mweb_1  |[0m   app/views/products/index.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+[36mweb_1  |[0m   app/views/products/index.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+[36mweb_1  |[0m   app/views/products/index.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.8ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:16:42 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (31.9ms)
+[36mweb_1  |[0m Completed 500 Internal Server Error in 313ms
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ActionView::Template::Error (undefined method `controller' for #<ProductsController:0x0055f3aac541f0>):
+[36mweb_1  |[0m      6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+[36mweb_1  |[0m      7:   <%= csrf_meta_tags %>
+[36mweb_1  |[0m      8: </head>
+[36mweb_1  |[0m      9: <body class='<%= controller.controller.name %>'>
+[36mweb_1  |[0m     10: 
+[36mweb_1  |[0m     11: <%= yield %>
+[36mweb_1  |[0m     12: 
+[36mweb_1  |[0m   app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3282385134165956694_70162836857280'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.6ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:18:53 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT "products".* FROM "products"[0m
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (43.6ms)
+[36mweb_1  |[0m Completed 500 Internal Server Error in 398ms
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ActionView::Template::Error (undefined method `controller' for #<ProductsController:0x007fa01cebece0>):
+[36mweb_1  |[0m      6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+[36mweb_1  |[0m      7:   <%= csrf_meta_tags %>
+[36mweb_1  |[0m      8: </head>
+[36mweb_1  |[0m      9: <body class="<%= controller.controller.name %>">
+[36mweb_1  |[0m     10: 
+[36mweb_1  |[0m     11: <%= yield %>
+[36mweb_1  |[0m     12: 
+[36mweb_1  |[0m   app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3282385134165956694_70162828207520'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.9ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:20:37 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products"
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (30.3ms)
+[36mweb_1  |[0m Completed 200 OK in 306ms (Views: 304.5ms | ActiveRecord: 1.0ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-50bea370133c3cb502cecddebf12d39dc6f499e18606c8689224cd01ed006603.css?body=1" for 172.18.0.1 at 2016-07-04 16:20:38 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 16:20:38 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 16:20:38 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 16:20:38 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 16:20:38 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 16:20:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 16:20:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 16:20:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/images/Obama.png" for 172.18.0.1 at 2016-07-04 16:20:39 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ActionController::RoutingError (No route matches [GET] "/images/Obama.png"):
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/lock.rb:17:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/engine.rb:518:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/application.rb:164:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/lock.rb:17:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.5ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.4ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/" for 172.18.0.1 at 2016-07-04 16:22:14 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m Processing by ProductsController#index as HTML
+[36mweb_1  |[0m   [1m[36mProduct Load (1.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+[36mweb_1  |[0m   Rendered products/index.html.erb within layouts/application (27.6ms)
+[36mweb_1  |[0m Completed 200 OK in 426ms (Views: 423.3ms | ActiveRecord: 1.4ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-50bea370133c3cb502cecddebf12d39dc6f499e18606c8689224cd01ed006603.css?body=1" for 172.18.0.1 at 2016-07-04 16:22:14 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/scaffolds.self-6ea33452262a1fc45afa9fc427a63528f3f40367c89ac079cf5d5363cb9e2913.css?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/images/Obama.png" for 172.18.0.1 at 2016-07-04 16:22:15 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ActionController::RoutingError (No route matches [GET] "/images/Obama.png"):
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+[36mweb_1  |[0m   web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+[36mweb_1  |[0m   activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/lock.rb:17:in `call'
+[36mweb_1  |[0m   actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/engine.rb:518:in `call'
+[36mweb_1  |[0m   railties (4.2.0) lib/rails/application.rb:164:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/lock.rb:17:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+[36mweb_1  |[0m   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+[36mweb_1  |[0m   /usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+[36mweb_1  |[0m   Rendered /usr/local/bundle/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.1ms)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Started GET "/products/2/edit" for 172.18.0.1 at 2016-07-04 16:22:19 +0000
+[36mweb_1  |[0m Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
